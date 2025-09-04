@@ -20,9 +20,10 @@ This is a Python-based tool designed to demonstrate and execute a boolean-based 
 
 3. The script determines if the `{CONDITION}` was true or false by checking for a specific message in the server's response (e.g., "Welcome back"). In this boolean-based attack, a failed login response can signify that the injected SQL condition was true.
 
-4. If the response contains the success message (Welcome back), the script reports the valid credentials and exits.
-
-5. If no valid password is found for a username, it notifies and moves on to the next one.
+4. Extract the Data: Using this method, the script asks a series of questions in a logical order to reveal the password hash:
+   - First, it validates if the user exists.
+   - Next, it discovers the exact length of the hash.
+   - Finally, it extracts the hash one character at a time.
 
 # Tools and Technologies Used
 Python – Main programming language.
