@@ -27,14 +27,12 @@ This is a Python-based tool designed to demonstrate and execute a boolean-based 
 # Tools and Technologies Used
 Python – Main programming language.
 
-`sys` – Used for output handling and termination.
-
 `requests` – For sending HTTP POST requests.
 
 Linux (Kali) – Typical environment for running hash-cracking tools.
 
 # Files
-`brute_force_login.py`: Main Python script that performs the brute-force attack.
+`brute_force_login.py`: Main Python script that performs the blind SQL injection attack.
 
 `rockyou.txt`: A wordlist file containing millions of commonly used passwords (You can use any .txt wordlist).
 
