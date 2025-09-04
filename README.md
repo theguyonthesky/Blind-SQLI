@@ -32,17 +32,14 @@ Python – Main programming language.
 Linux (Kali) – Typical environment for running hash-cracking tools.
 
 # Files
-`brute_force_login.py`: Main Python script that performs the blind SQL injection attack.
-
-`rockyou.txt`: A wordlist file containing millions of commonly used passwords (You can use any .txt wordlist).
+`blind-sql-injection.py`: Main Python script that performs the blind SQL injection attack.
 
 # How to Run
 1. Clone or download this repository
-2. Install the libraries: pip install requests (sys doesn't need to be installed, it's part of Python's standard library)
-3. Place your wordlist file in the same directory as the script, or update the file path in the code.
-4. Run the script using one of the following methods:
-   - Terminal (macOS/Linux): 'python3 brute_force_login.py'
-   - Windows (or IDEs like VS Code, PyCharm): 'python brute_force_login.py' or use the Run button
+2. Install the libraries: pip install requests.
+3. Run the script using one of the following methods:
+   - Terminal (macOS/Linux): 'python3 blind-sql-injection.py'
+   - Windows (or IDEs like VS Code, PyCharm): 'python blind-sql-injection.py' or use the Run button
 
 # Disclaimer
 This project is created for research, ethical hacking, and educational purposes only. Unauthorized access to computer systems is illegal. Always ensure you have explicit permission before testing any systems. The developer is not responsible for any misuse of this code.
