@@ -28,6 +28,8 @@ This is a Python-based tool designed to demonstrate and execute a boolean-based 
 # Tools and Technologies Used
 Python – Main programming language.
 
+Vulnerable Web Application – The script requires a backend server with a known SQL injection vulnerability to target.
+
 `requests` – For sending HTTP POST requests.
 
 Linux (Kali) – Typical environment for running hash-cracking tools.
