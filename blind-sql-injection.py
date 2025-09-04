@@ -80,8 +80,9 @@ while True:
 	except KeyboardInterrupt:
 		break
 
-# What this code does overall:
 
+		
+# What this code does overall:
 # 1.Prompts the user for a user_id.
 # 2.Checks if the user exists in the database.
 # 3.If the user exists:
